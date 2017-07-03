@@ -575,7 +575,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<br>\n<strong>Contacts</strong><br>\nEmail: mellyauscz@gmail.com<br>Website:<br><a href=\"http://newsvoo.com/\">newsvoo.com</a><br><a href=\"http://newsvoo.com/\"><br></a>",
+          "text1": "<p><br>\n<strong>Contacts</strong><br>\nEmail: mellyauscz@gmail.com<br>Website:<br><a href=\"http://digest.newsvoo.com\" target=\"_blank\">digest.newsvoo.com</a><br><a href=\"http://newsvoo.com/\"><br></a></p>",
           "text2": ""
         }
       ]
