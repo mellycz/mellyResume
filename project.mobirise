@@ -25,177 +25,10 @@
     },
     "scrollAnimation": "true",
     "favicon": "",
-    "uniqCompNum": 2,
+    "uniqCompNum": 3,
     "noImageResize": ""
   },
   "pages": {
-    "code.html": {
-      "settings": {
-        "title": ""
-      },
-      "components": [
-        {
-          "_name": "header2",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-size": "19px"
-            },
-            "H3": {
-              "text-align": "center"
-            },
-            ".btn": {
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "header2-16",
-          "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/img20170703104058-1400x1050.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Melly Zhao",
-          "text": "Member of the NewsVoo.com news organisation.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://newsvoo.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>Newsvoo.com</a>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_name": "header3",
-          "_anchor": "header3-20",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
-          },
-          "title": "Coding, Newsvoo and Me",
-          "meta": "By John Smith posted July 30, 2016"
-        },
-        {
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "font-size": "25px",
-              "text-align": "left"
-            }
-          },
-          "_anchor": "content1-18",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>I first began learning to code when I was in Year 9 as one of my elective subjects. &nbsp;Soon I found myself sucked into the programming wonderland. &nbsp;Even though what I learnt was really basic at the time, but I really enjoyed the feeling when I was able to turn something of my imagination into reality through coding.</p><p><br></p><p>Then in the beginning of 2015, I was introduced to Meteor by chance. &nbsp;At first I found it hard to wrap my head around the concept that it was built on. &nbsp;But once I practised a little while, I realised that it is actually one of the best tools I have ever used to build Javascript websites and apps.</p><p><br></p><p>I decided to have a go at programming a news website from scratch utilising my newly acquired Meteor knowledge for practise. &nbsp;So this is how I came to be one of the two developers of the site Newsvoo.com.</p><p><br></p><p><span style=\"line-height: 1.5;\">Newsvoo.com officially went online at the start of 2016. &nbsp;Even though we started small, but the number of readers is increasing every day, and they are from all corners of the planet. &nbsp;We also have diligent reporters working across the globe, writing articles and conjuring reports that matters to the Chinese people 7 days a week.</span></p><p><span style=\"line-height: 1.5;\"><br></span></p><p>It is my hope that I can go as far as I can on the coding path, but aside from this, I'm also enthusiastic about leadership, public speaking, foreign affairs, law and politics. &nbsp;Please click on my resume to learn more about me.</p>"
-        },
-        {
-          "_inherit": "msg-box8",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
-            },
-            ".btn": {
-              "font-size": "20px"
-            },
-            ".lead H1": {
-              "text-align": "center"
-            }
-          },
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-19",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": true
-          },
-          "title": "<span style=\"font-size: 3rem; line-height: 1.1;\">Click </span><span style=\"font-size: 3rem; line-height: 1.1;\">Below </span><span style=\"font-size: 3rem; line-height: 1.1;\">to see my other activities</span><br>",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"resume.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-document mbr-iconfont mbr-iconfont-btn\"></span>Melly's Resume</a>"
-        },
-        {
-          "_name": "social-buttons1",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "20px",
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "social-buttons1-21",
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "vkontakte": false,
-            "odnoklassniki": false
-          },
-          "text": "'NewsVoo.com is a non-profit Chinese news network based in Australia, with our server located in the US. Our aim is to provide high-quality news, polls and unique opinion contents to Chinese readers from all over the world.'<br><br>©Newsvoo.com<br><br>"
-        }
-      ]
-    },
     "index.html": {
       "settings": {
         "main": true,
@@ -235,8 +68,8 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "'Lead through example, <br>and code with passion.'<br><br>-Melly Zhao<br><br>",
-          "text": "Last Edited 01/07/2017",
+          "title": "'Dream Big &amp;&nbsp;<br>Follow Passion'<br><br>-Melly Zhao<br><br>",
+          "text": "Last Edited 22/09/2017",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -255,7 +88,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><span style=\"font-size: 23px; line-height: 1.5;\"><b>ABOUT ME</b></span></p><p><span style=\"line-height: 1.5;\">I'm a first year law and commerce student at ANU. </span><span style=\"font-size: 25px; line-height: 1.5;\">I See myself as a <b>leader</b> and a <b>programmer</b>.</span><span style=\"line-height: 1.5;\"> &nbsp;My dream is to become an ambassador representting Australia on the world stage one day. &nbsp;My motto is 'Success is where preparation and opportunity meets'.</span></p><p><br></p>"
+          "text": "<p><span style=\"font-size: 23px; line-height: 1.5;\"><b>ABOUT ME</b></span></p><p><span style=\"line-height: 1.5;\">I'm a first year law and commerce student at ANU. </span><span style=\"font-size: 25px; line-height: 1.5;\">I See myself as a<b> Leader</b> and a <b>Speaker</b>.</span><span style=\"line-height: 1.5;\"> &nbsp;My dream is to become a public servant, helping to make Australia an even better country; or an ambassador representting Australia on the world stage one day. &nbsp;My motto is 'Success is where preparation and opportunity meets'.</span></p><p><br></p>"
         },
         {
           "_tags": [
@@ -304,10 +137,24 @@
               "authorBio": "User"
             },
             {
-              "text": "Junior School Captain",
+              "text": "Scouts Member",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "2012-2013",
+              "authorBio": "User"
+            },
+            {
+              "text": "Junior School Captain",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
@@ -318,7 +165,21 @@
               "authorBio": "User"
             },
             {
-              "text": "Competed in UNSW ProgComp",
+              "text": "&nbsp;Volunteer at Salvation Army",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "2014-2017",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "Competed in UNSW ProgComp&nbsp;",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -329,7 +190,7 @@
                 }
               },
               "authorName": "2015",
-              "authorBio": "User"
+              "authorBio": "Developer"
             },
             {
               "text": "Whole School Vice Capatin",
@@ -346,7 +207,35 @@
               "authorBio": "Developer"
             },
             {
+              "text": "ANU Law Negotiation Competition",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "2017",
+              "authorBio": "Developer"
+            },
+            {
               "text": "ANU Law Reform and Social Justice – community legal education presenter",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "2017",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "Volunteer at Red Cross Op Shop",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -362,7 +251,7 @@
           ],
           "_anchor": "testimonials4-16",
           "_params": {
-            "count": "5",
+            "count": "9",
             "paddingTop": "4",
             "paddingBottom": 3,
             "showImages": false,
@@ -380,7 +269,12 @@
             "showSubtitle": false
           },
           "title": "Extracirculum Activities",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "_styles": {
+            ".card-block P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_name": "video2",
@@ -409,14 +303,20 @@
         },
         {
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "text-align": "left",
+              "font-size": "32px"
+            }
+          },
           "_anchor": "msg-box1-17",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -432,24 +332,18 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>More About my programming History</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "Work Experiences &amp; volunteering",
-          "_styles": {
-            "H3": {
-              "text-align": "left",
-              "font-size": "32px"
-            }
-          }
+          "title": "Work Experiences"
         },
         {
           "_name": "features1",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
+              "background-color": "#c0a375"
             }
           },
           "_anchor": "features1-19",
           "_params": {
-            "columnsColor": "#2e2e2e",
+            "columnsColor": "#c0a375",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
@@ -464,7 +358,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": 4,
+            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
@@ -505,7 +399,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/n-600x193-59.png",
+              "src": "@PROJECT_PATH@/assets/images/emp-crest-780-black-600x136.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -515,13 +409,13 @@
               "linkInNewWindow": false
             }
           },
-          "title3": "2015-present",
+          "title3": "07/2017 - present",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Self taught Meteor programmer",
+          "caption3": "Contractor at the Department of Employment",
           "button3": "<a data-app-btn=\"true\" href=\"http://newsvoo.com/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Website built</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/the-salvation-army111-600x600-7.png",
+              "src": "@PROJECT_PATH@/assets/images/emp-crest-780-black-600x136.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -531,20 +425,20 @@
               "linkInNewWindow": false
             }
           },
-          "title4": "07/2014-present",
+          "title4": "07/2017-present",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Volunteer at Salvation Army",
+          "caption4": "Contractor at Department of Employment",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_name": "buttons1",
           "_anchor": "buttons1-15",
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "2",
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>More about my coding experience</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://newsvoo.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-paperclip mbr-iconfont mbr-iconfont-btn\"></span>Check the webiste I helped to built</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"code.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>More about law and me</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"http://newsvoo.com/\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-paperclip mbr-iconfont mbr-iconfont-btn\"></span>Check the webiste I helped to built</a>"
         },
         {
           "_name": "contacts2",
@@ -577,6 +471,149 @@
           },
           "text1": "<p><br>\n<strong>Contacts</strong><br>\nEmail: mellyauscz@gmail.com<br>Website:<br><a href=\"http://digest.newsvoo.com\" target=\"_blank\">digest.newsvoo.com</a><br><a href=\"http://newsvoo.com/\"><br></a></p>",
           "text2": ""
+        }
+      ]
+    },
+    "code.html": {
+      "settings": {
+        "title": ""
+      },
+      "components": [
+        {
+          "_name": "header2",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "19px"
+            },
+            "H3": {
+              "text-align": "center"
+            },
+            ".btn": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "header2-16",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img20170703104058-1400x1050.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Melly Zhao",
+          "text": "The story of Why I chose to study law.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://newsvoo.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>Newsvoo.com</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_name": "header3",
+          "_anchor": "header3-20",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Law and Me",
+          "meta": "By John Smith posted July 30, 2016"
+        },
+        {
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "25px",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-18",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Like many people, when I was young, I did not know exactly what I wanted to be when I grow up, much less about what I am going to study in university. &nbsp;</p><p><br></p><p>The first time law sparked interest in me, was when some articles that I read suggested that law is a noble and elite profession. &nbsp;A legal career was portrayed as being exciting, glamorous and desired. Additionally, significant financial award was another thumbs up for me. But aside from that, I did not understand much about law at all.</p><p><br></p><p>After entering high school, the school provided us with the opportunities to visit local courts, as well as exposing us to some real lawyers. After seeing those professional lawyers conducting themselves with such confidence, and their talks so structured, that's when my opinion on lawyers shifted again. I remembered thinking to myself 'if studying law will polish me into a person just like them, then I will never have to worry about employment again'. So at that stage, I was quite interested in studying law, as it will provide me with good employment opportunities.</p><p><br></p><p>My will to study law was strength again when I realised that law can open doors for me to achieve my aspiration. Ever since year 9, my goal is to enter the Australian Public Service and to be able to make valuable contributions to my country and to help it to become even better. After doing my researches, the facts suggested that law is a popular degree to study for those who works in the Public Service.</p><p><br></p><p>Later in my high school years, a relative shared with us the story of how she was disadvantaged because of her lack of knowledge on law. What happened was that she was buying a house and have already paid a 10% deposit to secure the house. But she found out later that the agent had still been trying to sell the house to other buyers. She was very stressed out, because she did not know if she already had a contract that was legally binding. After hearing her story, I realised that law affects every part of our lives, from trivial things to things that can bring about serious consequences: such as buying something from the shop, getting into a fight, being employed, renting a house etc. My will to study law became even stronger, because of the benefit it will give me to be able to protect myself and those around me using my legal knowledge.</p><p><br></p><p><span style=\"line-height: 1.5;\">So given the vast amount of opportunities it will offer me in terms of employment; the pathway it will provide me with, to enter the public service and to do service for my country; and the ability to protect myself and those around me, I came to ANU to study law. So far, I have thoroughly enjoyed every aspect of studying law at the ANU, and it has enabled me to develop stronger analytical, research and communication skills, as a result I have truly no regrets in deciding to study law.</span><br></p><p><br></p>"
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".btn": {
+              "font-size": "20px"
+            },
+            ".lead H1": {
+              "text-align": "center"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#000000",
+              "font-size": "36px"
+            }
+          },
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-19",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#c0a375",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "<span style=\"font-size: 3rem; line-height: 1.1;\">Click the button b</span><span style=\"font-size: 3rem; line-height: 1.1;\">elow </span><span style=\"font-size: 3rem; line-height: 1.1;\">to find out more about me</span><br>",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-document mbr-iconfont mbr-iconfont-btn\"></span>Melly's Resume</a>"
         }
       ]
     }

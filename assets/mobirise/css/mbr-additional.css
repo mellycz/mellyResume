@@ -408,6 +408,32 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #c0a375;
 }
+#header4-14 H1 {
+  font-size: 60px;
+  text-align: right;
+}
+#content1-14 P {
+  font-size: 30px;
+}
+#content1-14 SPAN {
+  font-size: 25px;
+}
+#testimonials4-16 .card-block P {
+  text-align: center;
+}
+#msg-box1-17 H3 {
+  text-align: left;
+  font-size: 32px;
+}
+#features1-19 .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #c0a375;
+}
+#contacts2-26 P {
+  font-size: 19px;
+}
+#contacts2-26 STRONG {
+  font-size: 25px;
+}
 #header2-16 P {
   text-align: center;
   font-size: 19px;
@@ -436,30 +462,7 @@ h6,
 #msg-box3-19 .lead H1 {
   text-align: center;
 }
-#social-buttons1-21 .mbr-section-title {
-  font-size: 20px;
-  color: #ffffff;
-}
-#header4-14 H1 {
-  font-size: 60px;
-  text-align: right;
-}
-#content1-14 P {
-  font-size: 30px;
-}
-#content1-14 SPAN {
-  font-size: 25px;
-}
-#msg-box1-17 H3 {
-  text-align: left;
-  font-size: 32px;
-}
-#features1-19 .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #2e2e2e;
-}
-#contacts2-26 P {
-  font-size: 19px;
-}
-#contacts2-26 STRONG {
-  font-size: 25px;
+#msg-box3-19 .mbr-section-title SPAN {
+  color: #000000;
+  font-size: 36px;
 }
