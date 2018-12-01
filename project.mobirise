@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "index.html",
     "versionFirst": "3.0",
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.7.7",
     "name": "Melly test",
     "theme": {
       "name": "mobirise3",
@@ -25,8 +25,10 @@
     },
     "scrollAnimation": "true",
     "favicon": "",
-    "uniqCompNum": 3,
-    "noImageResize": ""
+    "uniqCompNum": 4,
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -50,23 +52,23 @@
           },
           "_anchor": "header4-14",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/header-2000x1348-95.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
             "overlayColor": "#000000",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.3"
           },
           "title": "'Dream Big &amp;&nbsp;<br>Follow Passion'<br><br>-Melly Zhao<br><br>",
           "text": "Last Edited 22/09/2017",
@@ -97,10 +99,10 @@
           "_name": "image2",
           "_anchor": "image2-0",
           "_params": {
+            "showText": false,
             "paddingTop": "0",
             "paddingBottom": "2",
-            "bgColor": "#fff",
-            "showText": false
+            "bgColor": "#fff"
           },
           "media": {
             "image": {
@@ -251,22 +253,22 @@
           ],
           "_anchor": "testimonials4-16",
           "_params": {
-            "count": "9",
-            "paddingTop": "4",
-            "paddingBottom": 3,
+            "showTitle": true,
+            "showSubtitle": false,
             "showImages": false,
             "showName": true,
             "showBio": false,
+            "count": "9",
+            "paddingTop": "4",
+            "paddingBottom": 3,
             "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/sky.jpg",
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
-            "bgColor": "#fff",
             "bgColorRadio": false,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": 0.2,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": false
+            "overlayOpacity": 0.2
           },
           "title": "Extracirculum Activities",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
@@ -277,13 +279,42 @@
           }
         },
         {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "HI",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3"
+        },
+        {
           "_name": "video2",
           "_anchor": "video2-16",
           "_params": {
+            "showText": true,
             "paddingTop": "3",
             "paddingBottom": 4,
-            "bgColor": "#fff",
-            "showText": true
+            "bgColor": "#fff"
           },
           "media": {
             "image": {
@@ -311,24 +342,24 @@
           },
           "_anchor": "msg-box1-17",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": false,
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": false,
-            "showText": false,
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>More About my programming History</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
@@ -343,27 +374,27 @@
           },
           "_anchor": "features1-19",
           "_params": {
-            "columnsColor": "#c0a375",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "columnsColor": "#c0a375",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -455,13 +486,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#0a0707",
             "bgColorRadio": true,
+            "bgColor": "#0a0707",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
             "googleMap": {
               "address": "Australia national university, Canberra, Australia",
               "placeId": "ChIJa1CaCUdNFmsRULAVbzNTu_g",
@@ -495,24 +526,24 @@
           },
           "_anchor": "header2-16",
           "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#000",
-            "inverse": false,
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.3"
           },
           "media": {
             "image": {
@@ -549,10 +580,10 @@
           "_name": "header3",
           "_anchor": "header3-20",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "Law and Me",
           "meta": "By John Smith posted July 30, 2016"
@@ -593,23 +624,23 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-19",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
             "paddingTop": "2",
             "paddingBottom": "1",
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#c0a375",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#c0a375",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": true
+            "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-size: 3rem; line-height: 1.1;\">Click the button b</span><span style=\"font-size: 3rem; line-height: 1.1;\">elow </span><span style=\"font-size: 3rem; line-height: 1.1;\">to find out more about me</span><br>",
           "text": "",
