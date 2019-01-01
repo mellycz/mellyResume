@@ -94,7 +94,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><span style=\"font-size: 23px; line-height: 1.5;\"><b>ABOUT ME</b></span></p><p><span style=\"line-height: 1.5;\">I'm a third year law and commerce student at ANU. </span><span style=\"font-size: 25px; line-height: 1.5;\">I see myself as a<b> Leader</b> and a <b>Speaker</b>.</span><span style=\"line-height: 1.5;\"> &nbsp;My dream is to become a public servant, and do my part to make Australia an even better country; or become an ambassador and representting Australia on the world stage one day. &nbsp;My motto is 'Success is where preparation and opportunity meets'.</span></p><p><br></p>"
+          "text": "<p><span style=\"font-size: 23px; line-height: 1.5;\"><b>ABOUT ME</b></span></p><p><span style=\"line-height: 1.5;\">I'm a third year law and commerce student at ANU. </span><span style=\"font-size: 25px; line-height: 1.5;\">I see myself as a<b> Leader</b> and a <b>Speaker</b>.</span><span style=\"line-height: 1.5;\"> &nbsp;My dream is to become a public servant, and do my part to make Australia an even better country; or become an ambassador and representting Australia on the world stage one day. &nbsp;My motto is 'success is where preparation and opportunity meets'.</span></p><p><br></p>"
         },
         {
           "_tags": [
@@ -216,7 +216,7 @@
           },
           "title2": "02/2019 - 05/2019&nbsp;",
           "subtitle2": "One of Bootstrap 3s big points",
-          "caption2": "Research intern with ANU Enterprise Services Technology Transfer Office",
+          "caption2": "Research intern with the ANU Enterprise Services Technology Transfer Office",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "image": {
