@@ -8,8 +8,8 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
+        "primaryColor": "#ffffff",
+        "secondaryColor": "#c1c1c1",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
@@ -21,14 +21,18 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#222222"
+      ]
     },
     "scrollAnimation": "true",
     "favicon": "",
     "uniqCompNum": 4,
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
-    "siteFonts": []
+    "siteFonts": [],
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -71,7 +75,7 @@
             "overlayOpacity": "0.3"
           },
           "title": "'Dream Big &amp;&nbsp;<br>Follow Passion'<br><br>-Melly Zhao<br><br>",
-          "text": "Last Edited 22/09/2017",
+          "text": "Last Edited 01/01/2019",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -90,7 +94,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><span style=\"font-size: 23px; line-height: 1.5;\"><b>ABOUT ME</b></span></p><p><span style=\"line-height: 1.5;\">I'm a first year law and commerce student at ANU. </span><span style=\"font-size: 25px; line-height: 1.5;\">I See myself as a<b> Leader</b> and a <b>Speaker</b>.</span><span style=\"line-height: 1.5;\"> &nbsp;My dream is to become a public servant, helping to make Australia an even better country; or an ambassador representting Australia on the world stage one day. &nbsp;My motto is 'Success is where preparation and opportunity meets'.</span></p><p><br></p>"
+          "text": "<p><span style=\"font-size: 23px; line-height: 1.5;\"><b>ABOUT ME</b></span></p><p><span style=\"line-height: 1.5;\">I'm a third year law and commerce student at ANU. </span><span style=\"font-size: 25px; line-height: 1.5;\">I see myself as a<b> Leader</b> and a <b>Speaker</b>.</span><span style=\"line-height: 1.5;\"> &nbsp;My dream is to become a public servant, and do my part to make Australia an even better country; or become an ambassador and representting Australia on the world stage one day. &nbsp;My motto is 'Success is where preparation and opportunity meets'.</span></p><p><br></p>"
         },
         {
           "_tags": [
@@ -121,11 +125,147 @@
           "text": "High school senior leadership team."
         },
         {
+          "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "text-align": "left",
+              "font-size": "32px"
+            }
+          },
+          "_anchor": "msg-box1-17",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>More About my programming History</a>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "Work Experiences"
+        },
+        {
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#c1c1c1"
+            }
+          },
+          "_anchor": "features1-19",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "columnsColor": "#c1c1c1",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/actlalogo-123x123.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "02/2019 - 05/2019",
+          "subtitle1": "Bootstrap 3 has been noted",
+          "caption1": "Research intern with the Australian Capital Territory Legislative Assembly<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/australian-national-university-logo-520x178.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title2": "02/2019 - 05/2019&nbsp;",
+          "subtitle2": "One of Bootstrap 3s big points",
+          "caption2": "Research intern with ANU Enterprise Services Technology Transfer Office",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jobs-inline-333-600x107.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title3": "12/2017 - present",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Working part time with penalty rates and enterprise agreements",
+          "button3": "<a data-app-btn=\"true\" href=\"http://newsvoo.com/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Website built</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/emp-crest-780-black-600x136.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "07/2017-present",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Contractor at Department of Employment",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_name": "buttons1",
+          "_anchor": "buttons1-15",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"code.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>Law Projects Involvement</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"http://newsvoo.com/\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-paperclip mbr-iconfont mbr-iconfont-btn\"></span>Law School Blogging</a>"
+        },
+        {
           "_inherit": "testimonials2",
           "_name": "testimonials4",
           "testimonial": [
             {
-              "text": "SRC member (Student Representative Council)",
+              "text": "Senior Resident (mentor providing residential support and pastoral care)",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -135,11 +275,11 @@
                   "active": true
                 }
               },
-              "authorName": "2011-2016",
+              "authorName": "2018",
               "authorBio": "User"
             },
             {
-              "text": "Scouts Member",
+              "text": "ANU Law Student Society competitions director",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
@@ -149,11 +289,11 @@
                   "active": true
                 }
               },
-              "authorName": "2012-2013",
+              "authorName": "2018",
               "authorBio": "User"
             },
             {
-              "text": "Junior School Captain",
+              "text": "ANU Actuarial, Finance, Economics, Commerce Students’ Society mentor",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -163,53 +303,11 @@
                   "active": true
                 }
               },
-              "authorName": "2013",
+              "authorName": "2018",
               "authorBio": "User"
             },
             {
-              "text": "&nbsp;Volunteer at Salvation Army",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "2014-2017",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "Competed in UNSW ProgComp&nbsp;",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "2015",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "Whole School Vice Capatin",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "2016",
-              "authorBio": "Developer"
-            },
-            {
-              "text": "ANU Law Negotiation Competition",
+              "text": "Volunteer at Red Cross Op Shop",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -237,7 +335,7 @@
               "authorBio": "Developer"
             },
             {
-              "text": "Volunteer at Red Cross Op Shop",
+              "text": "ANU Law Mooting and Negotiation Competition participant",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -249,6 +347,90 @@
               },
               "authorName": "2017",
               "authorBio": "Developer"
+            },
+            {
+              "text": "High School Vice Captain",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "2016",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "UNSW ProgComp competitor",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "2015",
+              "authorBio": "Developer"
+            },
+            {
+              "text": "Volunteer at Red Cross Op Shop",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "2014-2017",
+              "authorBio": "Developer"
+            },
+            {
+              "authorName": "2013",
+              "authorBio": "Developer",
+              "text": "<p>Junior School Captain</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "2012-2013",
+              "authorBio": "Developer",
+              "text": "<p>Scouts Australia&nbsp;</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "2011-2016",
+              "authorBio": "Developer",
+              "text": "<p>SRC member (Student Representative Council)</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
             }
           ],
           "_anchor": "testimonials4-16",
@@ -258,14 +440,14 @@
             "showImages": false,
             "showName": true,
             "showBio": false,
-            "count": "9",
+            "count": "12",
             "paddingTop": "4",
             "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/sky.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#fff",
+            "bgColor": "#c0a375",
             "overlay": true,
             "overlayColor": "#222",
             "overlayOpacity": 0.2
@@ -279,40 +461,11 @@
           }
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
-          },
-          "title": "HI",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-3"
-        },
-        {
           "_name": "video2",
           "_anchor": "video2-16",
           "_params": {
             "showText": true,
-            "paddingTop": "3",
+            "paddingTop": "4",
             "paddingBottom": 4,
             "bgColor": "#fff"
           },
@@ -333,152 +486,17 @@
           "text": "Speech delivered at a whole school assembly as the Junior School Captain in 2013"
         },
         {
-          "_name": "msg-box1",
-          "_styles": {
-            "H3": {
-              "text-align": "left",
-              "font-size": "32px"
-            }
-          },
-          "_anchor": "msg-box1-17",
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "inverse": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>More About my programming History</a>",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "Work Experiences"
-        },
-        {
-          "_name": "features1",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#c0a375"
-            }
-          },
-          "_anchor": "features1-19",
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false,
-            "columnsColor": "#c0a375",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "columns": "3",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/mcdonalds-600x216-86.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title1": "09/2013-09/2016",
-          "subtitle1": "Bootstrap 3 has been noted",
-          "caption1": "Barista and Cashier at Mcdonald's",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/coles-logo-600x195-4.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title2": "09/2015 (1 week)",
-          "subtitle2": "One of Bootstrap 3s big points",
-          "caption2": "Coles Digital Work Experience Program",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/emp-crest-780-black-600x136.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title3": "07/2017 - present",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Contractor at the Department of Employment",
-          "button3": "<a data-app-btn=\"true\" href=\"http://newsvoo.com/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Website built</a>",
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/emp-crest-780-black-600x136.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title4": "07/2017-present",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Contractor at Department of Employment",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_name": "buttons1",
-          "_anchor": "buttons1-15",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"code.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-browser mbr-iconfont mbr-iconfont-btn\"></span>More about law and me</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"http://newsvoo.com/\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-paperclip mbr-iconfont mbr-iconfont-btn\"></span>Check the webiste I helped to built</a>"
-        },
-        {
           "_name": "contacts2",
           "_styles": {
             "P": {
-              "font-size": "19px"
+              "font-size": "19px",
+              "color": "#ffffff"
             },
             "STRONG": {
               "font-size": "25px"
+            },
+            "B": {
+              "font-size": "24px"
             }
           },
           "_anchor": "contacts2-26",
@@ -486,7 +504,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#0a0707",
@@ -500,7 +518,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<p><br>\n<strong>Contacts</strong><br>\nEmail: mellyauscz@gmail.com<br>Website:<br><a href=\"http://digest.newsvoo.com\" target=\"_blank\">digest.newsvoo.com</a><br><a href=\"http://newsvoo.com/\"><br></a></p>",
+          "text1": "<p><b>Contacts</b></p><br><p>Email: zhao.mellyc@gmail.com<br></p><br><p>Linkedin:<br><a href=\"http://www.linkedin.com/in/mellyzhao\" target=\"_blank\">www.linkedin.com/in/mellyzhao</a><br></p>",
           "text2": ""
         }
       ]
